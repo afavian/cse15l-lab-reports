@@ -5,7 +5,7 @@
 
 [link](https://afavian.github.io/cse15l-lab-reports/index.html)
 
-![Image](https://images.app.goo.gl/obXZmzj3PgoQPVRA7) 
+![Image](https://static.vecteezy.com/system/resources/previews/000/152/286/non_2x/linear-computer-technology-vector.jpg) 
 
 > Women in Stem
 
