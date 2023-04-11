@@ -56,5 +56,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
 > ✩ Type in **Yes**
-> 
+> ✩ Now your Terminal should look something like this:
+![Image](
 
