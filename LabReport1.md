@@ -5,10 +5,8 @@
 2. Remotely Connecting 
 3. Trying Some Commands
 ```
-
 # 1. Downloading VS Code onto your Mac computer
 ✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩
-
 ✩ **[VS CODE](https://code.visualstudio.com/)**
 > ✩ Click on the link and follow the instructions and install it onto your computer 
 
