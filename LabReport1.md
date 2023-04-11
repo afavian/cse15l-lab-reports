@@ -44,7 +44,7 @@
 ```
 ✩ $ ssh cs15lsp23zz@ieng6.ucsd.edu  
 ```
-> (except change "zz" to the corresponding letters to your account)
+✩ (except change "zz" to the corresponding letters to your account)
 
 
 > ✩ After sumbitting enter, your terminal should output something like this:
@@ -56,6 +56,20 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
 > ✩ Type in **Yes**
+
 > ✩ Now your Terminal should look something like this:
-![Image](
+![Image](Password.png)
+✩ In which you can now insert the password you reset in the first step 
+
+> **Keynote: You won't be able to see your password due to secure purposes but it's being typed in as you do**
+
+***
+**I was not able to continue from this point in forward because my account/password did not work**
+
+**I reset my password twice and yet it still did not work**
+
+**I was hoping my whole account was reset (as said in ed stem) but unfortunately it wasn't**
+
+# 3. Trying Some Commands 
+✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩
 
