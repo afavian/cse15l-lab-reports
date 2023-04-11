@@ -68,8 +68,15 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 **I reset my password twice and yet it still did not work**
 
-**I was hoping my whole account was reset (as said in ed stem) but unfortunately it wasn't**
+**I was hoping my whole account was reset (as said in ed stem) but unfortunately it wasn't** 
+
+**This is what I got as I kept inserting my password**
+![Image](failed.png) 
 
 # 3. Trying Some Commands 
 ✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩
 
+**SEE ABOVE WHY THIS ISN'T DONE**
+
+
+`Andrea Favian`
