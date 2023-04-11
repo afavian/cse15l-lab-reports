@@ -1,20 +1,27 @@
 # ✿ CSE 15L: Lab Report 1 (Mac Version) ✿
 ```
-✤ In this lab report you are going to be
-1. Looking up your CSE 15l account 
-2. Downloading VS Code onto your Mac computer 
-3. Learning how to open terminal and connect to bash 
-4. Running commands on the remote computer 
-5. Creating a Github account 
-  a. Creating a Respository 
-  b. Making a Pages Site
-  c. Editiing Markdown
+✤ In this lab report you are going to be 
+1. Downloading VS Code  
+2. Remotely Connecting 
+3. Trying Some Commands
 ```
 
-# 1. Looking up your CSE 15l account
+# 1. Downloading VS Code onto your Mac computer
 ✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩
 
-**Course-specific [account](https://sdacs.ucsd.edu/~icc/index.php) for CSE15L**
+✩ **[VS CODE](https://code.visualstudio.com/)**
+> ✩ Click on the link and follow the instructions and install it onto your computer 
+
+> ✩ When completed, this should be your screen: 
+
+![Image](VSCODESS.png)
+
+
+
+# 2. Remotely Connecting
+✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩
+
+**First Find Your Course-specific [account](https://sdacs.ucsd.edu/~icc/index.php) for CSE15L**
 
 > ✩ Type in your username (it will be your UCSD email not including @ucsd.edu)
 
@@ -24,12 +31,11 @@
 
 > ✩ [Link](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view?pli=1) for Tutorial on how to reset password
 
+**Second Open Terminal**
+> ✩ Drag curser to the menu bar & click on Terminal, new terminal 
 
-# 2. Downloading VS Code onto your Mac computer
-
-✩ **[VS CODE](https://code.visualstudio.com/)**
-> Click on the link and follow the instructions and install it onto your computer 
-
-> When completed, this should be your screen: 
-
-![Image](Screen Shot 2023-04-06 at 12.39.59 PM.png)
+**Third Change to Bash**
+> ✩ In order to change terminal setting to bash drag curser to the + sign in the terminal space & click on bash
+> ✩ Like this: 
+> 
+> 
