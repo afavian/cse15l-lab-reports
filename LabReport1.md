@@ -75,7 +75,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ✩
 
-> ✩ In which nnow your Terminal should now look something like this:
+> ✩ In which now your Terminal should now look something like this:
 ![Image](Goodterminal.png) 
 
 **✩CONGRATS! Your computer is now connected to the CSE Basement at UCSD✩** 
