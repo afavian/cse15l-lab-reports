@@ -99,8 +99,12 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ✩ 
 
-> Lastly, type in `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` into the terminal 
+> ✩ Lastly, type in `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` into the terminal 
 
-> This will appear:
-![Image](
+> ✩ This will appear:
+![Image](cat.png)
+
+> ✩ The command `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` prints the contents of the given path 
+
+
 `Andrea Favian`
