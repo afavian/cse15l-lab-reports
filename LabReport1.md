@@ -34,8 +34,27 @@
 **Second Open Terminal**
 > ✩ Drag curser to the menu bar & click on Terminal, new terminal 
 
-**Third Change to Bash**
-> ✩ In order to change terminal setting to bash drag curser to the + sign in the terminal space & click on bash
-> ✩ Like this: 
+**Third Change to Git Bash**
+> ✩ In order to change terminal setting to bash drag curser to the + sign in the terminal space & click on "bash"
+
+> ✩ Here is a better representation where the + sign will be: 
+![Image](TerminalSS.png)
+
+> ✩ Now in the terminal type in:
+```
+✩ $ ssh cs15lsp23zz@ieng6.ucsd.edu  
+```
+> (except change "zz" to the corresponding letters to your account)
+
+
+> ✩ After sumbitting enter, your terminal should output something like this:
+```
+⤇ ssh cs15lsp23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+
+> ✩ Type in **Yes**
 > 
-> 
+
