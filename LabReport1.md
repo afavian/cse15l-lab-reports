@@ -63,15 +63,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 > **Keynote: You won't be able to see your password due to secure purposes but it's being typed in as you do**
 
-***
-**I was not able to continue from this point in forward because my account/password did not work**
-
-**I reset my password twice and yet it still did not work**
-
-**I was hoping my whole account was reset (as said in ed stem) but unfortunately it wasn't** 
-
-**This is what I got as I kept inserting my password**
-![Image](failed.png) 
+> ✩ Your Terminal should now look something like this:
+![Image](
 
 # 3. Trying Some Commands 
 ✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩
