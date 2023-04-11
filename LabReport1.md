@@ -64,12 +64,17 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 > **Keynote: You won't be able to see your password due to secure purposes but it's being typed in as you do**
 
 > ✩ Your Terminal should now look something like this:
-![Image](
+![Image](Goodterminal.png) 
+
+**✩CONGRATS! Your computer is now connected to the CSE Basement at UCSD✩** 
 
 # 3. Trying Some Commands 
 ✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩-✩
 
-**SEE ABOVE WHY THIS ISN'T DONE**
+**We are going to try and run some commands now** 
+
+> ✩ Type in `ls -lat` into the terminal 
+![Image](
 
 
 `Andrea Favian`
