@@ -2,6 +2,8 @@
 
 ## PART 1:
 > **Code For String Server**
+
+
 ```
 import java.io.*;
 import java.net.*;
@@ -34,9 +36,12 @@ class Handler implements URLHandler {
         }
         return result;
     }
+
 ```
 
 > **Code for Sever.java**
+
+
 ```
 import java.io.IOException;
 import java.io.OutputStream;
@@ -87,6 +92,7 @@ public class Server {
         System.out.println("Server Started! Visit http://StringServer" + port + " to visit.");
     }
 }
+
 ```
 
 ## Part 2:
