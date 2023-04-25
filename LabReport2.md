@@ -94,7 +94,7 @@ public class Server {
 
 > **Symptom
 
-![Image](https://github.com/afavian/cse15l-lab-reports/blob/f1e968562a85ed409b2d870615256ac20bdc8931/symptom.jpg)
+![Image](https://github.com/afavian/cse15l-lab-reports/blob/f1e968562a85ed409b2d870615256ac20bdc8931/symptom.jpg) 
 
 > **before-and-after code change required to fix it**
 
