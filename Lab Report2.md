@@ -93,6 +93,7 @@ public class Server {
 > 🐛🐛🐛🐛🐛🐛🐛🐛🐛🐛
 > **Symptom
 
+![Image](Screen Shot 2023-04-24 at 10.48.39 PM.png) 
 
 > **before-and-after code change required to fix it**
 
