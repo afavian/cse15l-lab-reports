@@ -92,7 +92,7 @@ public class Server {
 ## Part 2:
 > 🐛🐛🐛🐛🐛🐛🐛🐛🐛🐛
 
-> **Symptom
+> **Symptom**
 
 ![Image](https://github.com/afavian/cse15l-lab-reports/blob/f1e968562a85ed409b2d870615256ac20bdc8931/symptom.jpg) 
 
