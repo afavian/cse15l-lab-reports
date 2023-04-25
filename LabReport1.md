@@ -87,13 +87,19 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 > ✩ Now it will look like this:   
 ![Image](Lslat.png)
-✩ The command `ls -lat` lists the files and folders of the path `lat`
+✩ The command `ls` will list the files and directories in the directory specified by the file path. In this case, the path is `-lat`. In regards to `lat`, it's three seperate alternatives that can modify the behavior of `ls`. 
+  
+  ✩ The `-l` alternative provides information about each file including permission and ownership.
+  
+  ✩ The `-a` alternative shows all files as well as covering the hidden files. 
+  
+  ✩ The `-t` alternative sorts the files by the most recent modified. 
 
 ✩ 
 
 > ✩ Next, type in `cd ~` into the terminal
 
-> ✩ Notice that nothing appears because it's just changing the directory
+> ✩ Notice that nothing appears because the command `cd ~` changes the current working directory to the user's home directory. The reason as to why you aren't able to see anything is because the command does not produce an ouput. 
 
 ✩ 
 
