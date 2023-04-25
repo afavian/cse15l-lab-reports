@@ -91,9 +91,10 @@ public class Server {
 
 ## Part 2:
 > 🐛🐛🐛🐛🐛🐛🐛🐛🐛🐛
+
 > **Symptom
 
-![Image](Screen Shot 2023-04-24 at 10.48.39 PM.png) 
+![Image](https://github.com/afavian/cse15l-lab-reports/blob/f1e968562a85ed409b2d870615256ac20bdc8931/symptom.jpg)
 
 > **before-and-after code change required to fix it**
 
@@ -123,4 +124,4 @@ static void reverseInPlace(int[] arr) {
 > Week 2:
 
 Something I learned during week 2 was that the port number can be any number in the thousands, although there was one thing I noticed. For http://localhost:4000 the number 6,000 did not seem to work when I tried to increment any number during the lab. It might of been a 🐛 because when I tried 6,001 or any number aside from the 6,000 it worked.
-Regrading this, I did not know that one reason as to why changing the port number can be useful because there are scenarios where you want to avoid conflicts with other services running on the same machine. By changing it, it prevents that. 
+Regrading this, I did not know that one reason as to why changing the port number can be useful is because there are scenarios where you want to avoid conflicts with other services running on the same machine and by changing it, it prevents that. 
