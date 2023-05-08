@@ -95,7 +95,7 @@ public class Server {
 
 ```
 > **Screenshots**
-
+![Image](https://github.com/afavian/cse15l-lab-reports/blob/8804dd9c68c0776eae4559ef02908ceb7eea6818/ss.png) 
 
 
 ## Part 2:
