@@ -5,37 +5,37 @@
 
 
 ```
-import java.io.*;
-import java.net.*;
-import java.util.*;
 import java.io.IOException;
 import java.net.URI;
 
+
 class Handler implements URLHandler {
-    private static String message = " "; 
-    
-    public static void main(String[] args) throws IOException {
-        int port = 8000; // the port number
-        HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-        server.createContext("/add-message", new MessageHandler());
-        server.setExecutor(null); // creates a default executor
-        server.start();
-        System.out.println("Server listening on port " + port);
+  String words = " ";
+
+  public String handleRequest(URI url) {
+    if (url.getPath().equals("/")) {
+      return String.format(" ");
     }
+      if (url.getPath().contains("/add-message")) {
+              String[] parameters = url.getQuery().split("s=");
+              words = words + parameters[1] + "\n";
+              return words; 
+          }
+          return "404 Not Found!";
+      }
+  }
+class StringServer {
+  public static void main(String[] args) throws IOException {
+    if(args.length == 0){
+      System.out.println("Missing port number! Try any number between 1024 to 49151");
+      return;
+    }
+
+    int port = Integer.parseInt(args[0]);
+
+    Server.start(port, new Handler());
+  }
 }
-    public static Map<String, String> parseQuery(String query) {
-        Map<String, String> result = new HashMap<>();
-        if (query != null) {
-            String[] params = query.split("&");
-            for (String param : params) {
-                String[] keyValue = param.split("=");
-                if (keyValue.length > 1) {
-                    result.put(keyValue[0], keyValue[1]);
-                }
-            }
-        }
-        return result;
-    }
 
 ```
 
@@ -89,11 +89,14 @@ public class Server {
 
         //start the server
         server.start();
-        System.out.println("Server Started! Visit http://StringServer" + port + " to visit.");
+        System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
+        }
     }
-}
 
 ```
+> **Screenshots**
+
+
 
 ## Part 2:
 🐛🐛🐛🐛🐛🐛🐛🐛🐛🐛
