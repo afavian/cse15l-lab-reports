@@ -95,15 +95,25 @@ public class Server {
 
 ```
 > **Screenshots**
-![Image](https://github.com/afavian/cse15l-lab-reports/blob/8804dd9c68c0776eae4559ef02908ceb7eea6818/ss.png) 
+![Image](ss.png) 
+- The methods that are called in my code are `handleRequest`, `split`, `url`, and `getPath`. 
+- The relevant argument for `handleRequest` would be the object that is representing the incoming HTTP request. For `split` it'd be the specified character that splits it into an array of substrings. The relevant arguments for `url` would be the componets that make an url up. The `host`, `port`, `path` etc. For `getPath` method, the argument `/` is being used as a comparison value to check if the path obtained from url is equal to the root path.
+- The values of any relevant fields of the class change by this specific request because of the query parameters it contains. These values are mapped to corrresponding fields in the class. 
 
+![Image](ss1.png)
+
+
+
+- The methods that are called in my code are `handleRequest`, `split`, `url`, and `getPath`. 
+- The relevant argument for `handleRequest` would be the object that is representing the incoming HTTP request. For `split` it'd be the specified character that splits it into an array of substrings. The relevant arguments for `url` would be the componets that make an url up. The `host`, `port`, `path` etc. For `getPath` method, the argument `/` is being used as a comparison value to check if the path obtained from url is equal to the root path.
+- The values of any relevant fields of the class change by this specific request because of the query parameters it contains. These values are mapped to corrresponding fields in the class. 
 
 ## Part 2:
 🐛🐛🐛🐛🐛🐛🐛🐛🐛🐛
 
 > **symptom**
 
-![Image](https://github.com/afavian/cse15l-lab-reports/blob/f1e968562a85ed409b2d870615256ac20bdc8931/symptom.jpg)
+![Image](sympton.png)
 
 > **before-and-after code change required to fix it**
 
@@ -132,5 +142,5 @@ static void reverseInPlace(int[] arr) {
 
 > Week 2:
 
-Something I learned during week 2 was that the port number can be any number in the thousands, although there was one thing I noticed. For http://localhost:4000 the number 6,000 did not seem to work when I tried to increment any number during the lab. It might of been a 🐛 because when I tried 6,001 or any number aside from the 6,000 it worked.
+Something I learned during week 2 was that the port number can be any number in the thousands, although there was one thing I noticed. For [http://localhost:4000](http://localhost:4000) the number 6,000 did not seem to work when I tried to increment any number during the lab. It might of been a 🐛 because when I tried 6,001 or any number aside from the 6,000 it worked.
 Regrading this, I did not know that one reason as to why changing the port number can be useful is because there are scenarios where you want to avoid conflicts with other services running on the same machine and by changing it, it prevents that. 
