@@ -110,12 +110,51 @@ public class Server {
 
 ## Part 2:
 🐛🐛🐛🐛🐛🐛🐛🐛🐛🐛
+1. > **Faliure-Inducing Input**
+```
+@Test
+  public void testReverseInPlace2(){
+    int[] input = {10 ,15, 20};
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[] {15, 20, 10}, input);
+  } 
+  ```
+  > **Output:**
+  ```
+  There was 1 failure:
+1) testReverseInPlace2(ArrayTests)
+arrays first differed at element [0]; expected:<15> but was:<20>
+```
 
-> **symptom**
+2. >**Correct-Inducing Input**
+
+```
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+  }
+```
+
+>**Output**
+
+```
+JUnit version 4.13.2
+...
+Time: 0.009
+
+OK (3 tests)
+```
+
+  
+3. > **symptom**
 
 ![Image](sympton.png)
 
-> **before-and-after code change required to fix it**
+
+
+4. > **before-and-after code change required to fix it**
 
 **Original Code W/ Bug**
 
@@ -139,6 +178,10 @@ static void reverseInPlace(int[] arr) {
   }
 
 ```
+**Why this code fixed it**
+The bug in reverseInPlace, had to be fixed because rather then only irritating through half of the array, it irriated through the whole array. The changes made in which was to cut, divide, it by two. 
+The bug was fixed with an “/2” after array.length in that line. In regards to the reverse method, a temporary variable is needed in order to hold arr[i]. 
+
 
 ## Part 3:
 
