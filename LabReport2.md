@@ -128,7 +128,6 @@ arrays first differed at element [0]; expected:<15> but was:<20>
 ```
 
 > **2. Correct-Inducing Input**
-
 ```
 @Test 
 	public void testReverseInPlace() {
@@ -139,7 +138,6 @@ arrays first differed at element [0]; expected:<15> but was:<20>
 ```
 
 >**Output:**
-
 ```
 JUnit version 4.13.2
 ...
@@ -187,7 +185,7 @@ By fixing reverseInPlace, it addressed the issue of irritating through the whole
 
 ## Part 3:
 
-> Week 2:
+> **Week 2:**
 
 Something I learned during week 2 was that the port number can be any number in the thousands, although there was one thing I noticed. For [http://localhost:4000](http://localhost:4000) the number 6,000 did not seem to work when I tried to increment any number during the lab. It might of been a 🐛 because when I tried 6,001 or any number aside from the 6,000 it worked.
 Regrading this, I did not know that one reason as to why changing the port number can be useful is because there are scenarios where you want to avoid conflicts with other services running on the same machine and by changing it, it prevents that. 
