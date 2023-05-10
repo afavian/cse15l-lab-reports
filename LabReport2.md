@@ -95,6 +95,7 @@ public class Server {
 
 ```
 > **Screenshots**
+
 ![Image](ss.png) 
 - The methods that are called in my code are `handleRequest`, `split`, `url`, and `getPath`. 
 - The relevant argument for `handleRequest` would be the object that is representing the incoming HTTP request. For `split` it'd be the specified character that splits it into an array of substrings. The relevant arguments for `url` would be the componets that make an url up. The `host`, `port`, `path` etc. For `getPath` method, the argument `/` is being used as a comparison value to check if the path obtained from url is equal to the root path.
@@ -110,7 +111,7 @@ public class Server {
 
 ## Part 2:
 🐛🐛🐛🐛🐛🐛🐛🐛🐛🐛
-1. > **Faliure-Inducing Input**
+> **1. Faliure-Inducing Input**
 ```
 @Test
   public void testReverseInPlace2(){
@@ -119,14 +120,14 @@ public class Server {
     assertArrayEquals(new int[] {15, 20, 10}, input);
   } 
   ```
-  > **Output:**
+ > **Output:**
   ```
   There was 1 failure:
 1) testReverseInPlace2(ArrayTests)
 arrays first differed at element [0]; expected:<15> but was:<20>
 ```
 
-2. >**Correct-Inducing Input**
+> **2. Correct-Inducing Input**
 
 ```
 @Test 
@@ -148,13 +149,13 @@ OK (3 tests)
 ```
 
   
-3. > **symptom**
+>  **3. Symptom**
 
 ![Image](sympton.png)
 
 
 
-4. > **before-and-after code change required to fix it**
+> **4. Before-and-after code change required to fix it**
 
 **Original Code W/ Bug**
 
@@ -178,9 +179,10 @@ static void reverseInPlace(int[] arr) {
   }
 
 ```
-**Why this code fixed it**
-The bug in reverseInPlace, had to be fixed because rather then only irritating through half of the array, it irriated through the whole array. The changes made in which was to cut, divide, it by two. 
-The bug was fixed with an “/2” after array.length in that line. In regards to the reverse method, a temporary variable is needed in order to hold arr[i]. 
+
+> **5. Why the fix addresses the issue**
+
+By fixing reverseInPlace, it addressed the issue of irritating through the whole array. Irritating through the whole array means it will go back to its original state instead of reversing the array. By fixing this issue, it made sure that it now only irritates through half of the array in order to reverse it. 
 
 
 ## Part 3:
