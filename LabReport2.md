@@ -109,6 +109,7 @@ public class Server {
 ## Part 2:
 🐛🐛🐛🐛🐛🐛🐛🐛🐛🐛
 > **1. Faliure-Inducing Input**
+
 ```
 @Test
   public void testReverseInPlace2(){
@@ -117,14 +118,17 @@ public class Server {
     assertArrayEquals(new int[] {15, 20, 10}, input);
   } 
   ```
- > **Output:**
-  ```
+
+> **Output:**
+ 
+ ```
   There was 1 failure:
 1) testReverseInPlace2(ArrayTests)
 arrays first differed at element [0]; expected:<15> but was:<20>
 ```
 
 > **2. Correct-Inducing Input**
+
 ```
 @Test 
 	public void testReverseInPlace() {
@@ -135,6 +139,7 @@ arrays first differed at element [0]; expected:<15> but was:<20>
 ```
 
 >**Output:**
+
 ```
 JUnit version 4.13.2
 ...
