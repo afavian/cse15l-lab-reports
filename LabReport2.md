@@ -102,9 +102,6 @@ public class Server {
 - The values of any relevant fields of the class change by this specific request because of the query parameters it contains. These values are mapped to corrresponding fields in the class. 
 
 ![Image](ss1.png)
-
-
-
 - The methods that are called in my code are `handleRequest`, `split`, `url`, and `getPath`. 
 - The relevant argument for `handleRequest` would be the object that is representing the incoming HTTP request. For `split` it'd be the specified character that splits it into an array of substrings. The relevant arguments for `url` would be the componets that make an url up. The `host`, `port`, `path` etc. For `getPath` method, the argument `/` is being used as a comparison value to check if the path obtained from url is equal to the root path.
 - The values of any relevant fields of the class change by this specific request because of the query parameters it contains. These values are mapped to corrresponding fields in the class. 
