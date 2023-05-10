@@ -138,7 +138,7 @@ arrays first differed at element [0]; expected:<15> but was:<20>
   }
 ```
 
->**Output**
+>**Output:**
 
 ```
 JUnit version 4.13.2
@@ -151,7 +151,7 @@ OK (3 tests)
   
 >  **3. Symptom**
 
-![Image](sympton.png)
+![Image](symptom.png)
 
 
 
