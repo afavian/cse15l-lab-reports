@@ -1,5 +1,5 @@
 # Find
-
+✰✰✰✰✰✰
 ## **-type**
 > Input 
 ```
@@ -16,6 +16,9 @@ $ find ~/public -type d
 
 **- This command filters the search result by only listing the directories within the user's home directory and its subdirectories.**
 
+>[Citation](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+
+✰✰✰✰✰✰
 
 > Input
 ```
@@ -32,8 +35,10 @@ $ find ~/public -type f
 
 **- This command specifies the type of search result by only listing the regular files within the user's home directory and its subdirectories.** 
 
-> Citation 
-[link](redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+>[Citation](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+
+✰✰✰✰✰✰
+
 ## **-empty**
 > Input 
 ```
@@ -52,6 +57,9 @@ find: /Users/simonscholar/Pictures/Photos Library.photoslibrary: Operation not p
 
 **- The command searches for empty files within the user's home directory and subdirectories.**
 
+>[Citation](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+
+✰✰✰✰✰✰
 
 > Input
 ```
@@ -70,6 +78,9 @@ find: /Users/simonscholar/Pictures/Photos Library.photoslibrary: Operation not p
 
 **- The command searches for empty directories within the user's home directory and subdirectories.** 
 
+>[Citation](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+
+✰✰✰✰✰✰
 
 ## **-mtime**
 > Input 
@@ -91,6 +102,9 @@ technical/911report/chapter-13.3.txt
 
 **- This command gives you a list of files in the directory `technical` that has been modified more than 12 days ago.**
 
+>[Citation](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+
+✰✰✰✰✰✰
 
 > Input
 ```
@@ -106,6 +120,9 @@ $ find technical/911report -mtime +13
 
 **-  This command gives you a list of files in the directory `technical` that has been modified more than 13 days ago, in which are none.**
 
+>[Citation](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+
+✰✰✰✰✰✰
 
 ## **-size**
 > Input 
@@ -126,6 +143,9 @@ technical/government/Post_Rate_Comm
 
 **-This command gives you a list of files within the `technical` directory that have a size of 1 block.**
 
+>[Citation](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+
+✰✰✰✰✰✰
 
 > Input
 ```
@@ -144,3 +164,6 @@ technical/911report
 
 **- This command gives you a list of files within the `technical` directory that have a size of 2 blocks.**
 
+>[Citation](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
+
+✰✰✰✰✰✰
