@@ -32,7 +32,8 @@ $ find ~/public -type f
 
 **- This command specifies the type of search result by only listing the regular files within the user's home directory and its subdirectories.** 
 
-
+> Citation 
+[link](redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
 ## **-empty**
 > Input 
 ```
@@ -88,7 +89,7 @@ technical/911report/chapter-13.3.txt
 
 > Explanation
 
-**- This command gives you a list of files in the directory `911report` from the file `technical` that has been modified more than 12 days ago.**
+**- This command gives you a list of files in the directory `technical` that has been modified more than 12 days ago.**
 
 
 > Input
@@ -103,7 +104,7 @@ $ find technical/911report -mtime +13
 
 > Explanation
 
-**-  This command gives you a list of files in the directory `911report` from the file `technical` that has been modified more than 13 days ago, in which are none.**
+**-  This command gives you a list of files in the directory `technical` that has been modified more than 13 days ago, in which are none.**
 
 
 ## **-size**
@@ -123,20 +124,23 @@ technical/government/Post_Rate_Comm
 
 > Explanation
 
-**- This command gives you a list of files **
+**-This command gives you a list of files within the `technical` directory that have a size of 1 block.**
 
 
 > Input
 ```
-$ find technical/911report -mtime +12
+$ find technical -size 2
 ```
 
 > Output
 ```
-
+technical/government/About_LSC
+technical/plos/pmed.0020191.txt
+technical/plos/pmed.0020226.txt
+technical/911report
 ```
 
 > Explanation
 
-**-  This command gives you a list of files in the directory `911report` from the file `technical` that has been modified more than 13 days ago, in which are none.**
+**- This command gives you a list of files within the `technical` directory that have a size of 2 blocks.**
 
