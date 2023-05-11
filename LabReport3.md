@@ -1,12 +1,15 @@
 # Find
 ✰✰✰✰✰✰
+
 ## **-type**
 > Input 
+
 ```
 $ find ~/public -type d
 ```
 
 > Output 
+
 ```
 /Users/simonscholar/public
 /Users/simonscholar/public/Drop Box
@@ -21,11 +24,13 @@ $ find ~/public -type d
 ✰✰✰✰✰✰
 
 > Input
+
 ```
 $ find ~/public -type f
 ```
 
 > Output
+
 ```
 /Users/simonscholar/public/.localized
 /Users/simonscholar/public/Drop Box/.localized
@@ -41,11 +46,13 @@ $ find ~/public -type f
 
 ## **-empty**
 > Input 
+
 ```
 $ find ~ -type f -empty
 ```
 
 > Output
+
 ```
 /Users/simonscholar/Music/.localized
 /Users/simonscholar/Pictures/.localized
@@ -62,11 +69,13 @@ find: /Users/simonscholar/Pictures/Photos Library.photoslibrary: Operation not p
 ✰✰✰✰✰✰
 
 > Input
+
 ```
 $ find ~ -type d -empty
 ```
 
 > Output
+
 ```
 find: /Users/simonscholar/Pictures/Photos Library.photoslibrary: Operation not permitted
 /Users/simonscholar/Library/Application Support/com.apple.replayd
@@ -84,11 +93,13 @@ find: /Users/simonscholar/Pictures/Photos Library.photoslibrary: Operation not p
 
 ## **-mtime**
 > Input 
+
 ```
 $ find technical/911report -mtime +12
 ```
 
 > Output 
+
 ```
 technical/911report
 technical/911report/chapter-13.4.txt
@@ -107,11 +118,13 @@ technical/911report/chapter-13.3.txt
 ✰✰✰✰✰✰
 
 > Input
+
 ```
 $ find technical/911report -mtime +13
 ```
 
 > Output
+
 ```
 
 ```
@@ -126,11 +139,13 @@ $ find technical/911report -mtime +13
 
 ## **-size**
 > Input 
+
 ```
 $ find technical -size 1
 ```
 
 > Output 
+
 ```
 technical
 technical/government
@@ -148,11 +163,13 @@ technical/government/Post_Rate_Comm
 ✰✰✰✰✰✰
 
 > Input
+
 ```
 $ find technical -size 2
 ```
 
 > Output
+
 ```
 technical/government/About_LSC
 technical/plos/pmed.0020191.txt
