@@ -40,6 +40,7 @@ The command `cd` changes the directory.
 
 The command `ls` lets me see the files in the `lab7` folder. 
 
+![Image](running.png)
 
 ## Step 7:
 
