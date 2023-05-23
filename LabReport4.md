@@ -22,4 +22,27 @@ The `git clone https://github.com/ucsd-cse15l-s23/lab7` command was copied and I
 
 >**Screenshot**
 
+![Image](clone.png)
 
+## Step 6:
+
+>**Keys Pressed**
+
+`<pwd>` 
+
+The command `pwd` lets me see what directory I am in which had to be changed. 
+
+`<cd>` `<lab7>` 
+
+The command `cd` changes the directory. 
+
+`<ls>` `<lab7>` 
+
+The command `ls` lets me see the files in the `lab7` folder. 
+
+
+## Step 7:
+
+>**Keys Pressed**
+
+`<vim>` `<ExampleListTest.java>` 
