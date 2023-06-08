@@ -6,7 +6,7 @@
 
 `<up>` `<enter>` 
 
-The `ssh cs15lsp23ht@ieng6.ucsd.edu` command was 1 up in the search history, so I used the up arrow to access it. 
+The `ssh cs15lsp23ht@ieng6.ucsd.edu` command was 1 up in the search history, so I used the `up` arrow to access it. 
 
 > **Screenshot**
 
@@ -34,7 +34,7 @@ The command `pwd` lets me see what directory I am in which had to be changed.
 
 `<cd>` `<lab7>` 
 
-The command `cd` changes the directory. 
+The command `cd` changes the directory to `lab7`. 
 
 `<ls>` `<lab7>` 
 
@@ -63,15 +63,15 @@ This command opens the file `ListExamples.java` in `vim` mode.
 
 `<i>` `<up>` x7 `<left>` x7 
 
-I went into `insert` mode by typing in `i` and used the up arrow seven times and the left arrow seven types in order to reach the error. 
+I went into `insert` mode by typing in `i` and used the `up` arrow seven times and the `left` arrow seven types in order to reach the error. 
 
 `<delete>` `<2>` 
 
 In order to fix the error, I had to change `index1` to `index2` and by doing so I deleted the 1 and added the 2. 
 
-`<esc>` `<:w>` `<enter>`
+`<esc>` `<:x>` `<enter>`
 
-This command saves the changes without exiting. 
+This command saves the changes and exits out of vim. 
 
 >**Screenshot**
 
